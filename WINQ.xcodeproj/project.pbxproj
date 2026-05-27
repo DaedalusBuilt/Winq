@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7526AAF0EC4A9BA194F61F /* WINQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A67D8BB8C4C6BBD655458 /* WINQApp.swift */; };
+		E122E51C06CE4FA9824C97E4 /* WK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA88006DD340DDAEEF767E /* WK.swift */; };
+		D5B87962EAAE494FA19572AB /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3804FE9DA854153A648FF91 /* EyeView.swift */; };
+		CF96A4EF8C394292A41DB272 /* WINQModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AA3704320C44D989FD58A2 /* WINQModels.swift */; };
+		2EBA0FB3716C4A4AAA22E8F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A373BDDB2C47CC9557A779 /* ContentView.swift */; };
+		91B4A83C8BAB4ABEA3E23454 /* ClickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F13FD84AE462B90399995 /* ClickView.swift */; };
+		DD28573FD4C146BB82389EE5 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDB78DF7BC4B31A1016296 /* InboxView.swift */; };
+		987CCD0DBCE2435298121204 /* WINQMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B86CE0629467F8F9ABA14 /* WINQMapView.swift */; };
+		BCE1F629BEBF4E99B5D4284A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9CB6D70C243A1B0A1EAED /* ProfileView.swift */; };
+		D0680F9016894B00B1F393D9 /* MatchRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92F7A138C34EA19707000A /* MatchRevealView.swift */; };
+		A3D06E3E06A542B585B6F02C /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926C67959564413A5253959 /* FiltersView.swift */; };
+		937491BB453C42C985CA475D /* ChancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920BA852D444AEAA3368134 /* ChancesView.swift */; };
+		61D1931BC32B46308C1DE228 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F851E311441C8B5D57972 /* OnboardingContainerView.swift */; };
+		4AF22C5523D44121A3FE49EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B0C0EEA424454AB6BD6D8F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD5A67D8BB8C4C6BBD655458 /* WINQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WINQApp.swift"; sourceTree = "<group>"; };
+		FACA88006DD340DDAEEF767E /* WK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WK.swift"; sourceTree = "<group>"; };
+		F3804FE9DA854153A648FF91 /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EyeView.swift"; sourceTree = "<group>"; };
+		A7AA3704320C44D989FD58A2 /* WINQModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WINQModels.swift"; sourceTree = "<group>"; };
+		18A373BDDB2C47CC9557A779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		176F13FD84AE462B90399995 /* ClickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClickView.swift"; sourceTree = "<group>"; };
+		A0EDB78DF7BC4B31A1016296 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InboxView.swift"; sourceTree = "<group>"; };
+		CD9B86CE0629467F8F9ABA14 /* WINQMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WINQMapView.swift"; sourceTree = "<group>"; };
+		CAB9CB6D70C243A1B0A1EAED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView.swift"; sourceTree = "<group>"; };
+		6B92F7A138C34EA19707000A /* MatchRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchRevealView.swift"; sourceTree = "<group>"; };
+		5926C67959564413A5253959 /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FiltersView.swift"; sourceTree = "<group>"; };
+		6920BA852D444AEAA3368134 /* ChancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChancesView.swift"; sourceTree = "<group>"; };
+		215F851E311441C8B5D57972 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingContainerView.swift"; sourceTree = "<group>"; };
+		35B0C0EEA424454AB6BD6D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEFF1DDB65642BEA0F41F7F /* WINQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WINQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABEAC26AD85E48A7918EC389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68C23D3891BF40FD82D785DF /* WINQ */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A67D8BB8C4C6BBD655458 /* WINQApp.swift */,
+				EED52EF5ECB0432CA82BCF14 /* DesignSystem */,
+				14E712A65E2B4A00BA1982E4 /* Models */,
+				FD7B9637C32D43868E9F0F77 /* Views */,
+				35B0C0EEA424454AB6BD6D8F /* Assets.xcassets */,
+				E6917806457F45CDB01E76AE /* Products */,
+			);
+			name = WINQ;
+			sourceTree = "<group>";
+		};
+		E6917806457F45CDB01E76AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEFF1DDB65642BEA0F41F7F /* WINQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED52EF5ECB0432CA82BCF14 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				FACA88006DD340DDAEEF767E /* WK.swift */,
+				F3804FE9DA854153A648FF91 /* EyeView.swift */,
+			);
+			name = DesignSystem;
+			sourceTree = "<group>";
+		};
+		14E712A65E2B4A00BA1982E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA3704320C44D989FD58A2 /* WINQModels.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		124E7280911E46F2B5CEDB3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18A373BDDB2C47CC9557A779 /* ContentView.swift */,
+				176F13FD84AE462B90399995 /* ClickView.swift */,
+				A0EDB78DF7BC4B31A1016296 /* InboxView.swift */,
+				CD9B86CE0629467F8F9ABA14 /* WINQMapView.swift */,
+				CAB9CB6D70C243A1B0A1EAED /* ProfileView.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A44EBEF0BFEE4E62AAC78831 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				6B92F7A138C34EA19707000A /* MatchRevealView.swift */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		495E9DD52BF241018CEBE093 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5926C67959564413A5253959 /* FiltersView.swift */,
+				6920BA852D444AEAA3368134 /* ChancesView.swift */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		A17574A54CF44104BB3F9F2C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				215F851E311441C8B5D57972 /* OnboardingContainerView.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		2BCCA3397E374BCEA96BF128 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99D4388B1D134C4C99835ABF /* Features */,
+				53154B4273D5415195AB31EF /* Main */,
+				F1AA7AD9211847AAB3AAC6EA /* Match */,
+				85D54CA9344F455384F7FB16 /* Onboarding */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		53154B4273D5415195AB31EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18A373BDDB2C47CC9557A779 /* ContentView.swift */,
+				176F13FD84AE462B90399995 /* ClickView.swift */,
+				A0EDB78DF7BC4B31A1016296 /* InboxView.swift */,
+				CD9B86CE0629467F8F9ABA14 /* WINQMapView.swift */,
+				CAB9CB6D70C243A1B0A1EAED /* ProfileView.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F1AA7AD9211847AAB3AAC6EA /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				6B92F7A138C34EA19707000A /* MatchRevealView.swift */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		99D4388B1D134C4C99835ABF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5926C67959564413A5253959 /* FiltersView.swift */,
+				6920BA852D444AEAA3368134 /* ChancesView.swift */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		85D54CA9344F455384F7FB16 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				215F851E311441C8B5D57972 /* OnboardingContainerView.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8EE342A5594FDF8C57D13C /* WINQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F006550D5EBA4858BB2B5DD8;
+			buildPhases = (
+				96BEEC27915740768F631D68,
+				ABEAC26AD85E48A7918EC389,
+				8E82E8D741134047B0D7B98E,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WINQ;
+			packageProductDependencies = (
+			);
+			productName = WINQ;
+			productReference = 9DEFF1DDB65642BEA0F41F7F;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A86FA594B43C4A489B24ED81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CF8EE342A5594FDF8C57D13C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6655CD39D19F4C14B0C01C50;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68C23D3891BF40FD82D785DF;
+			productRefGroup = E6917806457F45CDB01E76AE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8EE342A5594FDF8C57D13C,
+			);
+		};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		8E82E8D741134047B0D7B98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF22C5523D44121A3FE49EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BEEC27915740768F631D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7526AAF0EC4A9BA194F61F /* WINQApp.swift in Sources */,
+				E122E51C06CE4FA9824C97E4 /* WK.swift in Sources */,
+				D5B87962EAAE494FA19572AB /* EyeView.swift in Sources */,
+				CF96A4EF8C394292A41DB272 /* WINQModels.swift in Sources */,
+				2EBA0FB3716C4A4AAA22E8F2 /* ContentView.swift in Sources */,
+				91B4A83C8BAB4ABEA3E23454 /* ClickView.swift in Sources */,
+				DD28573FD4C146BB82389EE5 /* InboxView.swift in Sources */,
+				987CCD0DBCE2435298121204 /* WINQMapView.swift in Sources */,
+				BCE1F629BEBF4E99B5D4284A /* ProfileView.swift in Sources */,
+				D0680F9016894B00B1F393D9 /* MatchRevealView.swift in Sources */,
+				A3D06E3E06A542B585B6F02C /* FiltersView.swift in Sources */,
+				937491BB453C42C985CA475D /* ChancesView.swift in Sources */,
+				61D1931BC32B46308C1DE228 /* OnboardingContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		665FDDE1B9D4435BB54BA9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0C39D39D62347DB9C1ED1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				
+				SDKROOT = iphoneos;
+				
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4FE107B217784C41919D37C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASPETRATIO_ASPECT_RATIO = portrait;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WINQ/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WINQ needs the camera for face verification.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WINQ uses your location to find nearby WINQs.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winq.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45C909592E3F4979A5EA07FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASPETRATIO_ASPECT_RATIO = portrait;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WINQ/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WINQ needs the camera for face verification.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WINQ uses your location to find nearby WINQs.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winq.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6655CD39D19F4C14B0C01C50 /* Build configuration list for PBXProject "WINQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665FDDE1B9D4435BB54BA9C4 /* Debug */,
+				F0C39D39D62347DB9C1ED1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F006550D5EBA4858BB2B5DD8 /* Build configuration list for PBXNativeTarget "WINQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE107B217784C41919D37C9 /* Debug */,
+				45C909592E3F4979A5EA07FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A86FA594B43C4A489B24ED81 /* Project object */;
+}
